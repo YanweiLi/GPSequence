@@ -1,0 +1,15 @@
+
+
+# workspace文件名
+workspace 'GPSequence.xcworkspace' 
+
+target 'GPSequence' do
+  platform :ios, '8.0'
+  project './GPSequence/GPSequence.xcodeproj'
+end
+
+target 'GPSequenceDemo' do
+  platform :ios, '8.0'
+  project './GPSequenceDemo/GPSequenceDemo.xcodeproj'
+end
+
