@@ -8,14 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		576237AFFB0E1194B0815A94 /* libPods-GPSequence.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E71CF244ABED936E460887 /* libPods-GPSequence.a */; };
+		D71C2B042133988D00E944FD /* GPSTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = D71C2B032133988D00E944FD /* GPSTransfer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D71C2B072133CD1B00E944FD /* GPSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D71C2B052133CD1B00E944FD /* GPSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D71C2B082133CD1B00E944FD /* GPSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = D71C2B062133CD1B00E944FD /* GPSequence.m */; };
+		D71C2B092133D01000E944FD /* GPMarcoDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = D71C2B02213396D700E944FD /* GPMarcoDefine.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D7F757FF212AE29F006C9641 /* GPSEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D7F757FD212AE29F006C9641 /* GPSEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7F75800212AE29F006C9641 /* GPSEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F757FE212AE29F006C9641 /* GPSEnumerator.m */; };
+		D7F75801212AE2EE006C9641 /* GrapeSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D7F757FB212ADDA0006C9641 /* GrapeSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7F75802212AE2F0006C9641 /* GPBlockDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = D7F757FC212AE1FA006C9641 /* GPBlockDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		169BBE7AEC9260E2E9546081 /* Pods-GPSequence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSequence.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-GPSequence/Pods-GPSequence.debug.xcconfig"; sourceTree = "<group>"; };
 		66067D3516118A6CD4024362 /* Pods-GPSequence.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSequence.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GPSequence/Pods-GPSequence.release.xcconfig"; sourceTree = "<group>"; };
 		B2E71CF244ABED936E460887 /* libPods-GPSequence.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPSequence.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7F757CE212ABE60006C9641 /* GPSequence.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GPSequence.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71C2B02213396D700E944FD /* GPMarcoDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPMarcoDefine.h; sourceTree = "<group>"; };
+		D71C2B032133988D00E944FD /* GPSTransfer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSTransfer.h; sourceTree = "<group>"; };
+		D71C2B052133CD1B00E944FD /* GPSequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSequence.h; sourceTree = "<group>"; };
+		D71C2B062133CD1B00E944FD /* GPSequence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSequence.m; sourceTree = "<group>"; };
+		D7F757CE212ABE60006C9641 /* GrapeSequence.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GrapeSequence.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F757D3212ABE60006C9641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F757FB212ADDA0006C9641 /* GrapeSequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrapeSequence.h; sourceTree = "<group>"; };
+		D7F757FC212AE1FA006C9641 /* GPBlockDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPBlockDefine.h; sourceTree = "<group>"; };
+		D7F757FD212AE29F006C9641 /* GPSEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSEnumerator.h; sourceTree = "<group>"; };
+		D7F757FE212AE29F006C9641 /* GPSEnumerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSEnumerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +76,7 @@
 		D7F757CF212ABE60006C9641 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D7F757CE212ABE60006C9641 /* GPSequence.framework */,
+				D7F757CE212ABE60006C9641 /* GrapeSequence.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +85,14 @@
 			isa = PBXGroup;
 			children = (
 				D7F757D3212ABE60006C9641 /* Info.plist */,
+				D7F757FB212ADDA0006C9641 /* GrapeSequence.h */,
+				D71C2B032133988D00E944FD /* GPSTransfer.h */,
+				D7F757FC212AE1FA006C9641 /* GPBlockDefine.h */,
+				D71C2B02213396D700E944FD /* GPMarcoDefine.h */,
+				D7F757FD212AE29F006C9641 /* GPSEnumerator.h */,
+				D7F757FE212AE29F006C9641 /* GPSEnumerator.m */,
+				D71C2B052133CD1B00E944FD /* GPSequence.h */,
+				D71C2B062133CD1B00E944FD /* GPSequence.m */,
 			);
 			path = GPSequence;
 			sourceTree = "<group>";
@@ -80,6 +104,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F75801212AE2EE006C9641 /* GrapeSequence.h in Headers */,
+				D7F75802212AE2F0006C9641 /* GPBlockDefine.h in Headers */,
+				D71C2B072133CD1B00E944FD /* GPSequence.h in Headers */,
+				D71C2B042133988D00E944FD /* GPSTransfer.h in Headers */,
+				D7F757FF212AE29F006C9641 /* GPSEnumerator.h in Headers */,
+				D71C2B092133D01000E944FD /* GPMarcoDefine.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,9 +123,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D7F757CD212ABE60006C9641 /* GPSequence */ = {
+		D7F757CD212ABE60006C9641 /* GrapeSequence */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7F757D6212ABE60006C9641 /* Build configuration list for PBXNativeTarget "GPSequence" */;
+			buildConfigurationList = D7F757D6212ABE60006C9641 /* Build configuration list for PBXNativeTarget "GrapeSequence" */;
 			buildPhases = (
 				25CBEFC5F6E567ED37BF6995 /* [CP] Check Pods Manifest.lock */,
 				D7F757C8212ABE60006C9641 /* Sources */,
@@ -108,9 +138,9 @@
 			);
 			dependencies = (
 			);
-			name = GPSequence;
+			name = GrapeSequence;
 			productName = GPSequence;
-			productReference = D7F757CE212ABE60006C9641 /* GPSequence.framework */;
+			productReference = D7F757CE212ABE60006C9641 /* GrapeSequence.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D7F757C7212ABE60006C9641 /* Build configuration list for PBXProject "GPSequence" */;
+			buildConfigurationList = D7F757C7212ABE60006C9641 /* Build configuration list for PBXProject "GrapeSequence" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D7F757CD212ABE60006C9641 /* GPSequence */,
+				D7F757CD212ABE60006C9641 /* GrapeSequence */,
 			);
 		};
 /* End PBXProject section */
@@ -181,6 +211,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D71C2B082133CD1B00E944FD /* GPSequence.m in Sources */,
+				D7F75800212AE29F006C9641 /* GPSEnumerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +363,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aligames.GPSequence;
-				PRODUCT_NAME = GPSequence;
+				PRODUCT_NAME = GrapeSequence;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(FULL_PRODUCT_NAME)/Resources";
@@ -360,7 +392,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aligames.GPSequence;
-				PRODUCT_NAME = GPSequence;
+				PRODUCT_NAME = GrapeSequence;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(FULL_PRODUCT_NAME)/Resources";
@@ -370,7 +402,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D7F757C7212ABE60006C9641 /* Build configuration list for PBXProject "GPSequence" */ = {
+		D7F757C7212ABE60006C9641 /* Build configuration list for PBXProject "GrapeSequence" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D7F757D4212ABE60006C9641 /* Debug */,
@@ -379,7 +411,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7F757D6212ABE60006C9641 /* Build configuration list for PBXNativeTarget "GPSequence" */ = {
+		D7F757D6212ABE60006C9641 /* Build configuration list for PBXNativeTarget "GrapeSequence" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D7F757D7212ABE60006C9641 /* Debug */,

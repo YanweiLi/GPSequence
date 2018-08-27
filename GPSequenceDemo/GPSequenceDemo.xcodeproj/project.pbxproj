@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		334112888090B29FB4636FC8 /* libPods-GPSequenceDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FFEEE2002EA61CE3BB3E35 /* libPods-GPSequenceDemo.a */; };
+		D71C2B0A2133D04300E944FD /* GrapeSequence.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71C2B0B2133D04300E944FD /* GrapeSequence.framework */; };
 		D7F757E7212ABE86006C9641 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F757E6212ABE86006C9641 /* AppDelegate.m */; };
 		D7F757EA212ABE86006C9641 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F757E9212ABE86006C9641 /* ViewController.m */; };
 		D7F757ED212ABE86006C9641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F757EB212ABE86006C9641 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		78FFEEE2002EA61CE3BB3E35 /* libPods-GPSequenceDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPSequenceDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3214B13D2C3FF4D9C54B25 /* Pods-GPSequenceDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSequenceDemo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-GPSequenceDemo/Pods-GPSequenceDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C28FF828106B10F8A773EC57 /* Pods-GPSequenceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSequenceDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GPSequenceDemo/Pods-GPSequenceDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D71C2B0B2133D04300E944FD /* GrapeSequence.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GrapeSequence.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F757E2212ABE86006C9641 /* GPSequenceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSequenceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F757E5212ABE86006C9641 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7F757E6212ABE86006C9641 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D71C2B0A2133D04300E944FD /* GrapeSequence.framework in Frameworks */,
 				334112888090B29FB4636FC8 /* libPods-GPSequenceDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +50,7 @@
 		8AE4C65125BC8974184584A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D71C2B0B2133D04300E944FD /* GrapeSequence.framework */,
 				78FFEEE2002EA61CE3BB3E35 /* libPods-GPSequenceDemo.a */,
 			);
 			name = Frameworks;
