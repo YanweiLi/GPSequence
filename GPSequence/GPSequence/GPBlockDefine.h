@@ -6,6 +6,8 @@
 //  Copyright © 2018年 Liyanwei. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 #ifndef GP_BLOCK_DEFINE_H_
 #define GP_BLOCK_DEFINE_H_
 
