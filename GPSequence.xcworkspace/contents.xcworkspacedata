@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/Liyanwei/9.&#x8de8;&#x5e73;&#x53f0;&#x5f00;&#x53d1;/GPSequence/GPSequence/GrapeSequence.xcodeproj">
+      location = "group:GPSequence/GrapeSequence.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:GPSequenceDemo/GPSequenceDemo.xcodeproj">

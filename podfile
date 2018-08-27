@@ -3,9 +3,9 @@
 # workspace文件名
 workspace 'GPSequence.xcworkspace' 
 
-target 'GPSequence' do
+target 'GrapeSequence' do
   platform :ios, '8.0'
-  project './GPSequence/GPSequence.xcodeproj'
+  project './GPSequence/GrapeSequence.xcodeproj'
 end
 
 target 'GPSequenceDemo' do
