@@ -33,7 +33,8 @@
     return [self.originSequence countByEnumeratingWithState:state objects:buffer count:len];
 }
 
-- (id)as:(Class)clazz {
+- (id)as:(Class)clazz
+{
     NSParameterAssert([clazz conformsToProtocol:@protocol(GPSTransfer)]);
     return [clazz transferFromSequence:self];
 }
@@ -47,6 +48,7 @@
 {
     NSParameterAssert(eachBlock);
     if (!eachBlock) { return; }
+    
     NSUInteger index = 0;
     BOOL stop = NO;
     for (id item in self.originSequence) {
@@ -57,7 +59,8 @@
     }
 }
 
-- (BOOL)isEqual:(id)object {
+- (BOOL) isEqual:(id)object
+{
     NSParameterAssert([[object class] conformsToProtocol:@protocol(NSFastEnumeration)]);
     NSEnumerator *selfEnumerator = [self objectEnumerator];
     NSEnumerator *otherEnumerator = [[GPSEnumerator alloc] initWithFastEnumerator:object];
@@ -77,7 +80,8 @@
     return YES;
 }
 
-- (NSString *)description {
+- (NSString *)description
+{
     return [[self as:NSArray.class] description];
 }
 

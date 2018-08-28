@@ -8,6 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
+///////////////////////////////////////////////////////////////////////
+
+#define GP_SEQ(...) \
+[[GPSequence alloc] initWithOriginSequence:__VA_ARGS__]
+
+#define GP_SEQ_WITH_TYPE(__type__, ...) \
+((GPSequence<__type__> *)GP_SEQ(__VA_ARGS__))
+
+//////////////////////////////////////////////////////////////////////
+
 @protocol GPSTransfer;
 
 NS_ASSUME_NONNULL_BEGIN
@@ -39,3 +49,4 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 NS_ASSUME_NONNULL_END
+
