@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)reference:(nonnull T)reference;
 
 - (instancetype)initWithReference:(nonnull T)reference
-                     deallocBlock:(void (^_Nullable)(EZSWeakReference * _Nonnull reference)) deallocBlock NS_DESIGNATED_INITIALIZER;
+                     deallocBlock:(void (^_Nullable)(GPSWeakReference * _Nonnull reference)) deallocBlock NS_DESIGNATED_INITIALIZER;
 
 - (instancetype)init NS_UNAVAILABLE;
 + (instancetype)new NS_UNAVAILABLE;

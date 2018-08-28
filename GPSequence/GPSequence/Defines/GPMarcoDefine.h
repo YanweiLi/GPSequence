@@ -6,12 +6,13 @@
 //  Copyright © 2018年 Liyanwei. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 #ifndef GP_MARCO_DEFINE_H_
 #define GP_MARCO_DEFINE_H_
 
 #define GPS_CONCAT(A, B)             GPS_CONCAT_(A, B)
 #define GPS_CONCAT_(A, B)            A ## B
-
 
 #define GPS_LOCK_TYPE                dispatch_semaphore_t
 #define GPS_LOCK_DEF(LOCK)           dispatch_semaphore_t LOCK

@@ -10,11 +10,11 @@
 
 ///////////////////////////////////////////////////////////////////////
 
-#define GP_SEQ(...) \
+#define GP_NEW_SEQ(...) \
 [[GPSequence alloc] initWithOriginSequence:__VA_ARGS__]
 
-#define GP_SEQ_WITH_TYPE(__type__, ...) \
-((GPSequence<__type__> *)GP_SEQ(__VA_ARGS__))
+#define GP_NEW_SEQ_WITH_TYPE(__type__, ...) \
+((GPSequence<__type__> *)GP_NEW_SEQ(__VA_ARGS__))
 
 //////////////////////////////////////////////////////////////////////
 
