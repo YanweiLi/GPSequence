@@ -25,7 +25,8 @@ static inline void GPS_unlock(GPS_LOCK_TYPE *lock) {
 }
 
 // 锁自动释放操作
-#define GPS_SCOPELOCK(LOCK)          GPS_LOCK(LOCK);GPS_LOCK_TYPE GPS_CONCAT(auto_lock_, __LINE__) __attribute__((cleanup(GPS_unlock), unused)) = LOCK
+#define GPS_SCOPE_LOCK(LOCK)         \
+GPS_LOCK(LOCK);GPS_LOCK_TYPE GPS_CONCAT(auto_lock_, __LINE__) __attribute__((cleanup(GPS_unlock), unused)) = LOCK
 
 static inline BOOL GPS_idConformsToProtocol(id object, Protocol *protocol) {
     return [[object class] conformsToProtocol:protocol];

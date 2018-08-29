@@ -17,10 +17,16 @@
 		D7479B592134FB0400BED924 /* GPSequence+Operations.m in Sources */ = {isa = PBXBuildFile; fileRef = D7479B572134FB0400BED924 /* GPSequence+Operations.m */; };
 		D7479B5C2134FC3E00BED924 /* GPSUsefulBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = D7479B5A2134FC3E00BED924 /* GPSUsefulBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7479B5D2134FC3E00BED924 /* GPSUsefulBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = D7479B5B2134FC3E00BED924 /* GPSUsefulBlocks.m */; };
+		D7479B662135454D00BED924 /* GPSArray.h in Headers */ = {isa = PBXBuildFile; fileRef = D7479B642135454D00BED924 /* GPSArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7479B672135454D00BED924 /* GPSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D7479B652135454D00BED924 /* GPSArray.m */; };
 		D7729DF1213408DF00D8E5C8 /* GPSEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D7729DEF213408DF00D8E5C8 /* GPSEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7729DF2213408DF00D8E5C8 /* GPSEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D7729DF0213408DF00D8E5C8 /* GPSEnumerator.m */; };
 		D7729DF72134E38700D8E5C8 /* GPSWeakReference.h in Headers */ = {isa = PBXBuildFile; fileRef = D7729DF52134E38700D8E5C8 /* GPSWeakReference.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7729DF82134E38700D8E5C8 /* GPSWeakReference.m in Sources */ = {isa = PBXBuildFile; fileRef = D7729DF62134E38700D8E5C8 /* GPSWeakReference.m */; };
+		D7BF206F21356F390026B1D5 /* GPSOrderedSet.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BF206D21356F390026B1D5 /* GPSOrderedSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7BF207021356F390026B1D5 /* GPSOrderedSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BF206E21356F390026B1D5 /* GPSOrderedSet.m */; };
+		D7BF207321357AAE0026B1D5 /* GPSQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BF207121357AAE0026B1D5 /* GPSQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7BF207421357AAE0026B1D5 /* GPSQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BF207221357AAE0026B1D5 /* GPSQueue.m */; };
 		D7F75801212AE2EE006C9641 /* GrapeSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D7F757FB212ADDA0006C9641 /* GrapeSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7F75802212AE2F0006C9641 /* GPBlockDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = D7F757FC212AE1FA006C9641 /* GPBlockDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F44454C762A0E4530916E0A1 /* libPods-GrapeSequence.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D63FAC8B869825183CC1C9 /* libPods-GrapeSequence.a */; };
@@ -43,10 +49,16 @@
 		D7479B572134FB0400BED924 /* GPSequence+Operations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GPSequence+Operations.m"; sourceTree = "<group>"; };
 		D7479B5A2134FC3E00BED924 /* GPSUsefulBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSUsefulBlocks.h; sourceTree = "<group>"; };
 		D7479B5B2134FC3E00BED924 /* GPSUsefulBlocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSUsefulBlocks.m; sourceTree = "<group>"; };
+		D7479B642135454D00BED924 /* GPSArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSArray.h; sourceTree = "<group>"; };
+		D7479B652135454D00BED924 /* GPSArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSArray.m; sourceTree = "<group>"; };
 		D7729DEF213408DF00D8E5C8 /* GPSEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSEnumerator.h; sourceTree = "<group>"; };
 		D7729DF0213408DF00D8E5C8 /* GPSEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSEnumerator.m; sourceTree = "<group>"; };
 		D7729DF52134E38700D8E5C8 /* GPSWeakReference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSWeakReference.h; sourceTree = "<group>"; };
 		D7729DF62134E38700D8E5C8 /* GPSWeakReference.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSWeakReference.m; sourceTree = "<group>"; };
+		D7BF206D21356F390026B1D5 /* GPSOrderedSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSOrderedSet.h; sourceTree = "<group>"; };
+		D7BF206E21356F390026B1D5 /* GPSOrderedSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSOrderedSet.m; sourceTree = "<group>"; };
+		D7BF207121357AAE0026B1D5 /* GPSQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSQueue.h; sourceTree = "<group>"; };
+		D7BF207221357AAE0026B1D5 /* GPSQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSQueue.m; sourceTree = "<group>"; };
 		D7F757CE212ABE60006C9641 /* GrapeSequence.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GrapeSequence.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F757D3212ABE60006C9641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7F757FB212ADDA0006C9641 /* GrapeSequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrapeSequence.h; sourceTree = "<group>"; };
@@ -83,6 +95,19 @@
 				13D63FAC8B869825183CC1C9 /* libPods-GrapeSequence.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7479B632135452700BED924 /* SequenceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D7479B642135454D00BED924 /* GPSArray.h */,
+				D7479B652135454D00BED924 /* GPSArray.m */,
+				D7BF206D21356F390026B1D5 /* GPSOrderedSet.h */,
+				D7BF206E21356F390026B1D5 /* GPSOrderedSet.m */,
+				D7BF207121357AAE0026B1D5 /* GPSQueue.h */,
+				D7BF207221357AAE0026B1D5 /* GPSQueue.m */,
+			);
+			path = SequenceExtension;
 			sourceTree = "<group>";
 		};
 		D7729DEC213406C100D8E5C8 /* Defines */ = {
@@ -160,6 +185,7 @@
 				D7F757FB212ADDA0006C9641 /* GrapeSequence.h */,
 				D7729DF42134E37400D8E5C8 /* Utility */,
 				D7729DF32134092B00D8E5C8 /* Sequence */,
+				D7479B632135452700BED924 /* SequenceExtension */,
 				D7729DEE2134071000D8E5C8 /* Enumerator */,
 				D7729DED213406E700D8E5C8 /* Transfer */,
 				D7729DEC213406C100D8E5C8 /* Defines */,
@@ -174,12 +200,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7479B662135454D00BED924 /* GPSArray.h in Headers */,
+				D7BF206F21356F390026B1D5 /* GPSOrderedSet.h in Headers */,
 				D7479B542134F6A300BED924 /* NSObject+GPDealloc.h in Headers */,
 				D7479B5C2134FC3E00BED924 /* GPSUsefulBlocks.h in Headers */,
 				D7479B582134FB0400BED924 /* GPSequence+Operations.h in Headers */,
 				D71C2B092133D01000E944FD /* GPMarcoDefine.h in Headers */,
 				D7729DF72134E38700D8E5C8 /* GPSWeakReference.h in Headers */,
 				D7F75801212AE2EE006C9641 /* GrapeSequence.h in Headers */,
+				D7BF207321357AAE0026B1D5 /* GPSQueue.h in Headers */,
 				D7729DF1213408DF00D8E5C8 /* GPSEnumerator.h in Headers */,
 				D7F75802212AE2F0006C9641 /* GPBlockDefine.h in Headers */,
 				D71C2B072133CD1B00E944FD /* GPSequence.h in Headers */,
@@ -285,10 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7479B672135454D00BED924 /* GPSArray.m in Sources */,
+				D7BF207421357AAE0026B1D5 /* GPSQueue.m in Sources */,
 				D7729DF82134E38700D8E5C8 /* GPSWeakReference.m in Sources */,
 				D7479B552134F6A300BED924 /* NSObject+GPDealloc.m in Sources */,
 				D7479B5D2134FC3E00BED924 /* GPSUsefulBlocks.m in Sources */,
 				D7729DF2213408DF00D8E5C8 /* GPSEnumerator.m in Sources */,
+				D7BF207021356F390026B1D5 /* GPSOrderedSet.m in Sources */,
 				D7479B592134FB0400BED924 /* GPSequence+Operations.m in Sources */,
 				D71C2B082133CD1B00E944FD /* GPSequence.m in Sources */,
 			);

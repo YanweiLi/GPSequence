@@ -47,7 +47,9 @@
 - (void) forEachWithIndexAndStop:(void (^ NS_NOESCAPE )(id _Nonnull, NSUInteger, BOOL * _Nonnull))eachBlock
 {
     NSParameterAssert(eachBlock);
-    if (!eachBlock) { return; }
+    if (!eachBlock) {
+        return;
+    }
     
     NSUInteger index = 0;
     BOOL stop = NO;

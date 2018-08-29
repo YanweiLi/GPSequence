@@ -22,6 +22,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ GPSequence 将所有可遍历的多级树，变换成一个只有叶子的数据结构
+ */
 @interface GPSequence <T> : NSObject<NSFastEnumeration>
 
 /**
