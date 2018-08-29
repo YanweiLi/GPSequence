@@ -23,10 +23,16 @@
 
 // transfer
 #import <GrapeSequence/GPSTransfer.h>
+#import <GrapeSequence/NSObject+GPSequence.h>
+#import <GrapeSequence/NSArray+GPSTransfer.h>
+#import <GrapeSequence/NSOrderedSet+GPSTransfer.h>
+#import <GrapeSequence/NSSet+GPSTransfer.h>
 
 // container
+#import <GrapeSequence/GPSQueue.h>
 #import <GrapeSequence/GPSArray.h>
 #import <GrapeSequence/GPSOrderedSet.h>
-#import <GrapeSequence/GPSQueue.h>
+#import <GrapeSequence/GPSWeakArray.h>
+#import <GrapeSequence/GPSWeakOrderedSet.h>
 
 #endif /* GRAPE_SEQUENCE_H_ */
