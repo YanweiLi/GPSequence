@@ -15,16 +15,23 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    {
+        GPSArray<NSNumber*>* arr = [[GPSArray alloc] init];
+        NSAssert(arr.count == 0, @"ss");
+    }
+    
+    {
+        NSArray* tmp = @[@1 , @2 , @3];
+        GPSArray<NSNumber*>* arr = [[GPSArray alloc] initWithNSArray:tmp];
+        NSAssert(arr.count == 3, @"ss");
+       
+        NSAssert([arr isEqual:tmp], @"ss");
+    }
+    
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end
