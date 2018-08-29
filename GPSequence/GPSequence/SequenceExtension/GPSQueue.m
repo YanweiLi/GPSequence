@@ -25,8 +25,8 @@
 
 @implementation GPSLinkedList
 
-- (instancetype)initWithValue:(id)value
-                         next:(GPSLinkedList *)next
+- (instancetype) initWithValue:(id)value
+                          next:(GPSLinkedList *)next
 {
     if (self = [super init]) {
         _value = value;
@@ -36,12 +36,12 @@
     return self;
 }
 
-- (instancetype)initWithValue:(id)value
+- (instancetype) initWithValue:(id)value
 {
     return [self initWithValue:value next:nil];
 }
 
-- (instancetype)init
+- (instancetype) init
 {
     return [self initWithValue:nil next:nil];
 }
@@ -199,16 +199,16 @@
     NSUInteger count = self.count;
     
     // 这里是个问题
-//    if (state->state == count) {
-//        return 0;
-//    }
-//
-//    Ivar ivar = class_getInstanceVariable(self.class, "_first");
-//
-//    state->itemsPtr = (id  _Nullable __unsafe_unretained * _Nonnull)((__bridge void *)self + ivar_getOffset(ivar));
-//    state->mutationsPtr = (typeof(state->mutationsPtr))&self->_hashValue;
-//
-//    state->state = count;
+    //    if (state->state == count) {
+    //        return 0;
+    //    }
+    //
+    //    Ivar ivar = class_getInstanceVariable(self.class, "_first");
+    //
+    //    state->itemsPtr = (id  _Nullable __unsafe_unretained * _Nonnull)((__bridge void *)self + ivar_getOffset(ivar));
+    //    state->mutationsPtr = (typeof(state->mutationsPtr))&self->_hashValue;
+    //
+    //    state->state = count;
     return count;
 }
 @end
