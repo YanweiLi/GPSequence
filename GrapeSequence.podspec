@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name    = 'GrapeSequence'
 s.version = '1.0.0'
-s.summary = 'GPFoundation 基础库，提供tuple功能.'
+s.summary = 'GPFoundation 基础库，提供容器片平滑功能.'
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.author  = { "一凡" => "code_li_yw@163.com" }
 s.homepage = 'https://github.com/YanweiLi/GPSequence'
